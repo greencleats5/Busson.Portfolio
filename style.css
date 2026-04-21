@@ -1,51 +1,49 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-<style> 
 body {
   margin: 0;
-  font-family: "Audiowide", sans-serif;
-  display: flex;
+  font-family: Arial, sans-serif;
 }
-<style>
-
-body.index {
-  background-image: url("images/IMG_1145.JPG");
-  background-size: cover;
-  background-position: center;
 
 .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 220px;
   height: 100vh;
-  background: #111;
-  color: white;
+  background-color: #111;
   padding: 20px;
-  position: fixed;}
+  box-sizing: border-box;
+}
 
-.logo {
+.sidebar h1 {
+  color: white;
+  font-size: 22px;
   margin-bottom: 30px;
-  font-size: 22px;}
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
 
 .sidebar nav a {
-  display: block;
-  color: white;
+  color: #ccc;
   text-decoration: none;
-  margin: 15px 0;
+  padding: 10px 0;
   font-size: 16px;
-  transition: 0.3s;}
+  transition: 0.2s;
+}
 
 .sidebar nav a:hover {
-  color: #00bcd4;}
+  color: white;
+  transform: translateX(5px);
+}
 
-.content {
-  margin-left: 240px;
-  padding: 40px;
-  width: 100%;}
-h1 {
-  font-size:30px;
-  font-family: "Autowide", sans-serif;}
-h2 {
-  font-size: 22px;
-  font-family: "Times New Roman", Times, sans-serif;}
+.sidebar nav a.active {
+  color: white;
+  font-weight: bold;
+}
 
-p {
-  font-size: 18px;
-  line-height: 1.6;}
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
