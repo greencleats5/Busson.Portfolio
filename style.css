@@ -3,8 +3,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
-body.index {
-  background-image: <img src= "images/Jake.JPG">
+.index {
+  background-image: url("images/Jake.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   }
   
 .sidebar {
