@@ -41,16 +41,16 @@ body {
 }
 
 .sidebar nav a:hover {
-  color: white;
-  transform: translateX(5px);
+  color: red;
+  transform: translateX(10px);
 }
 
 .sidebar nav a.active {
-  color: white;
+  color: purple;
   font-weight: bold;
 }
 
 .main-content {
-  margin-left: 220px;
-  padding: 20px;
+  margin-left: 240px;
+  padding: 40px;
 }
