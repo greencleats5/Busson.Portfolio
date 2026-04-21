@@ -3,6 +3,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+body.index {
+  background-image: <img src= "images/Jake.JPG">
+  }
+  
 .sidebar {
   position: fixed;
   left: 0;
